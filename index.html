@@ -56,7 +56,7 @@ function createSound(inyh) {
 setInterval(function(){ 
 
  source[0] = audioCtx.createBufferSource();
-  source[0].buffer = bufferLike[1];
+  source[0].buffer = bufferLike[2];
   source[0].connect(audioCtx.destination);
   source[0].loop = false;
   source[0].start();
