@@ -39,7 +39,7 @@ function createSound(inyh) {
     audioData = request.response;
     audioCtx.decodeAudioData(audioData, function(buffer) {
     
-       bufferLike.unshift(buffer);
+       bufferLike.push(buffer);
     
       },
 
